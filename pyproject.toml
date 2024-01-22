@@ -7,7 +7,9 @@ readme = "README.md"
 packages = [{include = "causal_impact_meetup"}]
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = ">=3.11,<3.12"
+tfcausalimpact = "^0.0.14"
+notebook = "^7.0.7"
 
 
 [build-system]
